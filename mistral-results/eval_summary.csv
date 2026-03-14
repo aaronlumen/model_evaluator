@@ -1,0 +1,2 @@
+model,overall,chain_of_thought,chain_of_thought_weighted,abductive,abductive_weighted,analogical,analogical_weighted,counterfactual,counterfactual_weighted,causal_chain,causal_chain_weighted,hallucination_resistance,hallucination_resistance_weighted,self_correction,self_correction_weighted
+mistral:latest,8.68,9.8,14.7,8.6,17.2,4.6,6.9,9.65,9.65,8.6,12.9,9.9,19.8,10.0,10.0
