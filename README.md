@@ -1,5 +1,10 @@
-###Author: Aaron Surina - LLM Reasoning Evaluator Tooling - Heads up:
-# 2 files run the show;
+
+> [!ALERT]
+> # Author: Aaron Surina (Dedicated to my two sons, David & Andrew Surina
+> # LLM Reasoning Evaluator Tooling - 
+> # Heads up:
+> [!INFO]
+> # 2 files run the show;
 > [!TIP] 
 > eval_harness.py — the main engine. Runs all probes against your local Ollama models, uses one model as a judge to score the others (LLM-as-Judge pattern), and outputs everything.
 > probe_builder.py — add your own proprietary security scenarios without touching the harness. Includes example probes already built for network recon, IP security agent reasoning, and OPSEC.
