@@ -46,33 +46,33 @@ Evaluates local Ollama models across **7 reasoning categories** critical for
 security agent and pentest tooling selection.
 
 ---
-
-## Quick Start
-
-```bash
-# 1. Install dependencies
-pip install ollama requests rich pandas matplotlib seaborn
-
-# 2. Make sure Ollama is running
-ollama serve
-
-# 3. Pull some models to compare
-ollama pull mistral
-ollama pull mixtral
-ollama pull deepseek-coder
-
-# 4. Run the eval
-python eval_harness.py --models mistral mixtral deepseek-coder
-
-# 5. Run only specific categories
-python eval_harness.py --models mistral --categories chain_of_thought abductive hallucination_resistance
-
-# 6. Use a specific judge model
-python eval_harness.py --models mixtral --judge mistral
-
-# 7. List available models
-python eval_harness.py --list-models
-```
+>[!NOTE]
+> ## Quick Start
+>
+> ```bash
+># 1. Install dependencies
+>pip install ollama requests rich pandas matplotlib seaborn
+>
+># 2. Make sure Ollama is running
+>ollama serve
+>
+># 3. Pull some models to compare
+>ollama pull mistral
+>ollama pull mixtral
+>ollama pull deepseek-coder
+>
+># 4. Run the eval
+>python eval_harness.py --models mistral mixtral deepseek-coder
+>
+># 5. Run only specific categories
+>python eval_harness.py --models mistral --categories chain_of_thought abductive hallucination_resistance
+>
+># 6. Use a specific judge model
+>python eval_harness.py --models mixtral --judge mistral
+>
+># 7. List available models
+>python eval_harness.py --list-models
+> ```
 
 ---
 
