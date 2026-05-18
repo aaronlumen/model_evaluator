@@ -1,7 +1,8 @@
 # Author: Aaron Surina (Dedicated to my two sons, David & Andrew Surina
 >[!ALERT]
->Reasoning Evaluator Tooling - 
->Heads up:
+> Reasoning Evaluator Tooling -
+>
+> Heads up:
 
 >[!TIP]
 > 2 files run the show;
@@ -11,7 +12,8 @@
 > probe_builder.py — add your own proprietary security scenarios without touching the harness. Includes example probes already built for network recon, IP security agent reasoning, and OPSEC.
 
 >[!INFO]
->Quickstart on your machine
+>
+> Quickstart on your machine
 
 ```
 pip install -r requirements.txt
